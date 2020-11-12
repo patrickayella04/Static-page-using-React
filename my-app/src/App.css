@@ -1,11 +1,185 @@
-/* @import './styles/buttons.scss';
-@import './styles/config.scss'; */
-
 * {
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%; /* 1 rem is now 1 10 pixles*/
+}
+.body {
+  
+
+  display:grid;
+  grid-template-rows: 1fr 50vh auto 1fr;
+  /* grid-template-columns: 2fr 2fr; */
+  grid-template-areas: 
+  "nav"
+  "main"
+  "info"
+  "foot";
+}
+.nav-area{
+  grid-area: nav;
+  display: flex;
+  justify-content: space-around;
+  /* min-height: 10vh; */
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #fc5e92 ;
+  color: #ffffff;
+}
+.container {
+  grid-area: main;
+  background: url(./img/white-bubble-illustration-1111372.jpg) no-repeat 0 -100px;
+  background-size: 100%;
+  background-position: center;
+
+  /* text-align: center; */
+  color: #cf5e5e;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-container {
+  background: url(./img/standing-white-t.JPG) no-repeat 0 -50px;
+  background-size: 60% ;
+  background-position: center;
+}
+.contact-container {
+  background: url(./img/pexels-negative-space-33999.jpg) no-repeat 0 -50px;
+  background-size: 100% ;
+  background-position: center;
+}
+.text-area {
+  grid-area: info;
+  color:#000000;
+  font-size: 0.6em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: lighter;
+  padding: 40px;
+  text-align: center;
+}
+.footer-area {
+  grid-area: foot;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #fc5e92 ;
+  color: #ffffff70;
+  font-weight: lighter;
+  font-size: 0.6em;
+}
+/*//////////////////////////////////////////////////////////////////////////////*/
+.big-show h1, .about-show h1 {
+  align-content: center;
+  /* padding: 120px 10px 50px 10px; */
+  
+   font-size: 3rem;
+   /* margin-bottom: 20px; */
+   color: #fafaf8;
+   /* border-bottom: #ffffff solid 2px; */
+   /* border-top: #ffffff solid 2px;*/
+   font-weight: lighter;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about-show h1 {
+  color: #fc5e92 ;
+  border-top: #ffffff solid 0px;
+  /* padding: 120px 0 50px 0; */
+}
+
+.big-show, .about-show, .about-contact {
+  /* min-height: 500px; */
+  background-image: url(./img/white-bubble-illustration-1111372.jpg) no-repeat 0 -70px;
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+  color: #cf5e5e;
+  
+}
+/*//////////////////////////////////////////////////////////////////////////////*/
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+nav .logo {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+nav .nav-links {
+  display:flex;
+  justify-content: space-around;
+  width: 32%;
+}
+nav .nav-links a {
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+  cursor: pointer;
+}
+nav .nav-links a:hover {
+  text-decoration: none;
+}
+nav .burger {
+  font-size: 28px;
+  display: none;
+  cursor: pointer;
+}
+/*//////////////////////////////////////////////////////////////////////////////*/
+@media all and (max-width: 768px) {
+  
+  nav .burger {
+    display:block;
   }
-  html { 
-    font-size: 62.5%; /* 1 rem is now 1 10 pixles*/
+  nav .nav-links {
+    position: absolute;
+    display: block;
+    top:0;
+    left: 0;
+    height: 100vh;
+    padding: 40px;
+    background-color: #ec5c8c;
+    width: 50%;
+    transform: translateX(-500px);
+    transition:  0.5s ease-in-out;
   }
+  nav .nav-links li {
+    padding: 25px;
+  }
+  nav .nav-links li {
+    border-bottom: 1px solid #cccccc;
+  }
+  nav .nav-links .no-border {
+  border-bottom: 0px solid #cccccc;
+ }
+  nav .nav-links Link:hover {
+    border-bottom: 0px solid #ffffff;
+  }
+  .about-container {
+    background: url(./img/standing-white-t.JPG) no-repeat 0 -50px;
+    background-size: 100% ;
+    background-position: center;
+  }
+  .contact-container {
+    background: url(./img/pexels-negative-space-33999.jpg) no-repeat 0 -50px;
+    background-size: 100% ;
+    background-position: center;
+  }
+  .big-show h1, .about-show h1 {
+    align-content: center;
+    font-size: 2.5rem  ;
+    color: #fafaf8;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .contact-text {
+    padding-bottom: 150px;
+  }
+}
+
