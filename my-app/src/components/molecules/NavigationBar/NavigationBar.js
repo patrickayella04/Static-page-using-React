@@ -11,9 +11,6 @@ function NavigationBar() {
         <NavTitle /> 
         <NavLinks />
         <NavBurgerIcon />
-             
-        
-        
       </>
     );
   }
