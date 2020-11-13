@@ -8,7 +8,6 @@ html {
 }
 .body {
   
-
   display:grid;
   grid-template-rows: 1fr 50vh auto 1fr;
   /* grid-template-columns: 2fr 2fr; */
@@ -54,7 +53,7 @@ html {
 .text-area {
   grid-area: info;
   color:#000000;
-  font-size: 0.6em;
+  font-size: 1em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: lighter;
   padding: 40px;

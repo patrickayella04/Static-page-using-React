@@ -9,6 +9,7 @@ function HomeTextArea() {
      <>
         <div className="text-area">
                 <HomeText />
+                
             </div>
     </>
                 

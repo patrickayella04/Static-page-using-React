@@ -21,6 +21,7 @@ function NavLinks() {
                 </Link>               
         </ul> 
         
+        <i onClick={() => setOpen(!open)} className="fas fa-bars burger"></i>
         
      </>
     );

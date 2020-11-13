@@ -1,8 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; // We just named BrowserRouter to Router/ Install Router: npm install react-router-dom
 import './App.css';
+import AboutPage from './components/Pages/AboutPage';
+import ContactPage from './components/Pages/ContactPage';
 
 import HomePage from './components/Pages/HomePage';
+
 
 
 
@@ -19,8 +22,8 @@ function App() {
         
         <Switch>
           <Route path="/" exact component = {HomePage} />
-          {/* <Route path="/about" component = {AboutPage} />
-          <Route path="/contact" component = {ContactPage} /> */}
+          <Route path="/about" component = {AboutPage} />
+          <Route path="/contact" component = {ContactPage} />
         </Switch>
     </h1>
     </Router>

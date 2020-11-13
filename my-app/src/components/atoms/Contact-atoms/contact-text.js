@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-function HomeText() {
+function ContactText() {
     
     return (
         
@@ -21,4 +21,4 @@ function HomeText() {
     );
 }
 
-export default HomeText
+export default ContactText
