@@ -1,11 +1,11 @@
 import React from 'react';
-import NavTitle from './components/atoms/nav-title';
-import NavLinks from './components/atoms/nav-links';
-import NavBurgerIcon from '../../atoms/nav-burgerIcon';
+import NavTitle from './components/atoms/Nav-atoms/nav-title';
+import NavLinks from './components/atoms/Nav-atoms/nav-links';
+import NavBurgerIcon from '../../atoms/Nav-atoms/nav-burgerIcon';
 
 
 
-function NavigationBar() {
+function NavigationBar() { 
     return (
         <>
         <NavTitle /> 

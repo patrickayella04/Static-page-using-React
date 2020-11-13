@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import NavArea from './components/organisms/NavBarArea-organ/NavBarArea';
 
 
    
@@ -9,10 +10,17 @@ import './App.css';
 
 function App() {
   return (
-    <>
-     
-      
-    </>
+
+    
+    <div className="body">
+        
+      <NavArea />
+       
+           
+        </div> 
+        
+
+    
   );
 }
 
