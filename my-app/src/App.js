@@ -1,6 +1,8 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; // We just named BrowserRouter to Router
 import './App.css';
-import NavArea from './components/organisms/NavBarArea-organ/NavBarArea';
+import HomePage from './components/Pages/HomePage';
+
 
 
    
@@ -11,13 +13,17 @@ import NavArea from './components/organisms/NavBarArea-organ/NavBarArea';
 function App() {
   return (
 
-    
-    <div className="body">
+    <Router> 
+      <h1>
         
-      <NavArea />
-       
-           
-        </div> 
+        <Switch>
+          <Route path="/" exact component = {HomePage} />
+          {/* <Route path="/about" component = {AboutPage} />
+          <Route path="/contact" component = {ContactPage} /> */}
+        </Switch>
+    </h1>
+    </Router>
+    
         
 
     
