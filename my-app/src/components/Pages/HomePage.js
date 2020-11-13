@@ -1,9 +1,9 @@
 import React from 'react';
 import FooterArea from '../organisms/Footer-organism/footer-area';
-import HomeShowArea from '../organisms/Home-organ/showcase-area';
-import HomeTextArea from '../organisms/Home/text-area';
-import NavArea from '../organisms/NavBarArea-organ/NavBarArea';
-import './App.css';
+import HomeShowArea from '../organisms/Home-organism/showcase-area';
+import HomeTextArea from '../organisms/Home-organism/text-area';
+import NavArea from '../organisms/NavBarArea-organism/NavBarArea';
+
 
 
 

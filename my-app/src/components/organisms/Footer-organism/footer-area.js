@@ -1,4 +1,4 @@
-import React from 'React';
+import React from 'react';
 import Footer from '../../atoms/Footer-Atoms/footer';
 
 

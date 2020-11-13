@@ -1,7 +1,7 @@
 import React from 'react';
-import NavTitle from './components/atoms/Nav-atoms/nav-title';
-import NavLinks from './components/atoms/Nav-atoms/nav-links';
 import NavBurgerIcon from '../../atoms/Nav-atoms/nav-burgerIcon';
+import NavLinks from '../../atoms/Nav-atoms/nav-links';
+import NavTitle from '../../atoms/Nav-atoms/nav-title';
 
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-function HomeShowase() {
+function HomeShowcase() {
     
     return (
     
@@ -10,10 +10,7 @@ function HomeShowase() {
                     <h1>Invent <br/>Onwards &amp; Upwards Inovation</h1>
             </div>
     
-                 
-
-
     );
 }
 
-export default HomeShowase
+export default HomeShowcase
