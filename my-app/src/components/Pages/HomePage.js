@@ -1,8 +1,10 @@
 import React from 'react';
-import NavArea from './components/organisms/NavBarArea-organism/NavBarArea';
-import HomeShowArea from './components/organisms/Home-organism/showcase-area';
-import HomeTextArea from './components/organisms/Home-organism/text-area';
-import FooterArea from './components/organisms/Footer-organism/footer-area';
+import FooterArea from '../organisms/Footer-organism/footer-area';
+import HomeShowArea from '../organisms/Home-organ/showcase-area';
+import HomeTextArea from '../organisms/Home/text-area';
+import NavArea from '../organisms/NavBarArea-organ/NavBarArea';
+import './App.css';
+
 
 
 
@@ -12,6 +14,8 @@ function HomePage() {
 
 
     return (
+
+     <>
         <div className="body">
 
             <NavArea />
@@ -19,7 +23,9 @@ function HomePage() {
             <HomeTextArea />
             <FooterArea />
 
-        </div> 
+            </div> 
+            
+    </>
         
     )
 }

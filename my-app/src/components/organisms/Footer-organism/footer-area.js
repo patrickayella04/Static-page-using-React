@@ -1,5 +1,6 @@
 import React from 'React';
-import Footer from './atoms/Footer-atoms/footer'
+import Footer from '../../atoms/Footer-Atoms/footer';
+
 
 
 
@@ -7,11 +8,13 @@ import Footer from './atoms/Footer-atoms/footer'
 function FooterArea() {
     return (
         
+     <>
         <div className="footer-area">
 
             <Footer />
         
             </div>
+    </>
     
     );
 }
