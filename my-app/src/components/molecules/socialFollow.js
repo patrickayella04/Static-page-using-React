@@ -1,14 +1,37 @@
 import React from "react";
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+    faYoutube,
+    faFacebook,
+    faTwitter,
+    faInstagram
+    
+} from '@fortawesome/free-brands-svg-icons';
 
 
 
 
 function SocialFollow() {
     return (
-        <div>
-            <h3>SocialFollow</h3>
+        <div className="social-container">
+            <h3>@PatrickAyellaNyeko</h3>
+            <a href="https://www.youtube.com/channel/UCLdn7A-uA11_tNuOm59WLxA" className="youtube social">
+
+                <FontAwesomeIcon icon={faYoutube} size="2x" />
+            </a>
+            <a href="https://www.facebook.com/patrick.a.nyeko" className="facebook social">
+
+                <FontAwesomeIcon icon={faFacebook} size="2x" />
+            </a>
+            <a href="https://www.instagram.com/jump3_7/" className="instagram social">
+
+                <FontAwesomeIcon icon={faInstagram} size="2x" />
+            </a>
+            <a href="https://twitter.com/jump3_7" className="twitter social">
+
+                <FontAwesomeIcon icon={faTwitter} size="2x" />
+            </a>
+            
         </div>
     )
 }
