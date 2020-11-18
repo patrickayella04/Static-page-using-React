@@ -1,5 +1,5 @@
 import React from 'react';
-import SocialFollow from '../../molecules/socialFollow';
+import SocialFollow from '../../molecules/SocialMedia/socialFollow';
 
 
 
