@@ -1,3 +1,6 @@
+/*From the different packedeges included from fontawesome, svg icons can be brought into the project for social media platforms as React components*/
+
+
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
