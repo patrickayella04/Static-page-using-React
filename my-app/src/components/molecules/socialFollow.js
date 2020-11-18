@@ -14,7 +14,7 @@ import {
 function SocialFollow() {
     return (
         <div className="social-container">
-            <h3>@PatrickAyellaNyeko</h3>
+            <h3 className="email-social">@Patrickayella04@gmail.com</h3>
             <a href="https://www.youtube.com/channel/UCLdn7A-uA11_tNuOm59WLxA" className="youtube social">
 
                 <FontAwesomeIcon icon={faYoutube} size="2x" />

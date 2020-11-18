@@ -130,6 +130,43 @@ nav .burger {
   display: none;
   cursor: pointer;
 }
+
+
+/* Social follow */
+.social-container {
+  background: #eee;
+  padding: 25px 50px; 
+ }
+ .email-social {
+   padding: 20px;
+   font-size: 32px;
+   font-weight: 500;
+   font-style: italic;
+   color: #333;
+ }
+a.social {
+  margin: 0 2rem;
+  transition: transform 250ms;
+  display: inline-block;/*(Tip: For inline elemnets you cannot do a translate - there for you may have to use display: inline-block for it to work below)*/
+}
+
+a.social:hover {
+  transform: translateY(-2px)/*send icons up 2px(Tip: For inline elemnets you cannot do a translate - there for you may have to use display: inline-block for it to work above)*/
+}
+
+a.youtube {
+  color: #eb3223;
+}
+a.facebook {
+  color: #4968ad;
+}
+a.twitter {
+  color: #49a1eb;
+}
+a.instagram {
+  color: #000000;
+}
+ 
 /*//////////////////////////////////////////////////////////////////////////////*/
 @media all and (max-width: 768px) {
   
