@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeText from '../../atoms/Home-atoms/home-text';
+import HomeText from '../../atoms/home-atoms/Home-text';
 
 
 

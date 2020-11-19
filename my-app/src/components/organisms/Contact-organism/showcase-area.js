@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactShowase from '../../atoms/Contact-atoms/contact-showcase';
+import ContactShowase from '../../atoms/contact-atoms/Contact-showcase';
 
 
 
@@ -12,7 +12,7 @@ function ContactShowArea() {
     return (
          
         <>
-            <div class="container about-container contact-container">
+            <div className="container about-container contact-container">
                     <ContactShowase />
                 
             </div>

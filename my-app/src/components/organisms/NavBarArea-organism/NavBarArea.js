@@ -1,5 +1,5 @@
 import React from 'react';
-import NavigationBar from '../../molecules/NavigationBar/NavigationBar';
+import NavigationBar from '../../molecules/navigationBar/NavigationBar';
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutText from '../../atoms/About-atoms/about-text';
+import AboutText from '../../atoms/about-atoms/About-text';
 
 
 

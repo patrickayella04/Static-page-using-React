@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactText from '../../atoms/Contact-atoms/contact-text';
+import ContactText from '../../atoms/contact-atoms/Contact-text';
 
 
 

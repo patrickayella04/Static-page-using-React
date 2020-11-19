@@ -1,6 +1,6 @@
 import React from 'react';
-import NavLinks from '../../atoms/Nav-atoms/nav-links';
-import NavTitle from '../../atoms/Nav-atoms/nav-title';
+import NavLinks from '../../atoms/nav-atoms/Nav-links';
+import NavTitle from '../../atoms/nav-atoms/Nav-title';
 
 
 

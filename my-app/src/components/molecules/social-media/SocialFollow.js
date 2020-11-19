@@ -5,7 +5,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faYoutube,
-    faFacebook,
+    // faFacebook,
     faTwitter,
     faInstagram
     
@@ -22,10 +22,10 @@ function SocialFollow() {
 
                 <FontAwesomeIcon icon={faYoutube} size="2x" />
             </a>
-            <a href="https://www.facebook.com/patrick.a.nyeko" className="facebook social">
+            {/* <a href="https://www.facebook.com/patrick.a.nyeko" className="facebook social">
 
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
-            </a>
+            </a> */}
             <a href="https://www.instagram.com/jump3_7/" className="instagram social">
 
                 <FontAwesomeIcon icon={faInstagram} size="2x" />

@@ -1,8 +1,8 @@
 import React from 'react';
-import AboutShowArea from '../organisms/About-organism/showcase-area';
-import AboutTextArea from '../organisms/About-organism/text-area';
-import FooterArea from '../organisms/Footer-organism/footer-area';
-import NavArea from '../organisms/NavBarArea-organism/NavBarArea';
+import AboutShowArea from '../organisms/about-organism/Showcase-area';
+import AboutTextArea from '../organisms/about-organism/Text-area';
+import FooterArea from '../organisms/footer-organism/Footer-area';
+import NavArea from '../organisms/navBarArea-organism/NavBarArea';
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutShowcase from '../../atoms/About-atoms/about-showcase';
+import AboutShowcase from '../../atoms/about-atoms/About-showcase';
 
 
 
@@ -11,7 +11,7 @@ function AboutShowArea() {
     return (
          
            
-            <div class="container about-container">
+            <div className="container about-container">
                     <AboutShowcase />
                 
             </div>

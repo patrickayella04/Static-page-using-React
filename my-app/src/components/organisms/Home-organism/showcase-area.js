@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeShowcase from '../../atoms/Home-atoms/home-showcase';
+import HomeShowcase from '../../atoms/home-atoms/Home-showcase';
 
 
 
@@ -12,7 +12,7 @@ function HomeShowArea() {
     return (
          
      <> 
-        <div class="container">
+        <div className="container">
             
                     <HomeShowcase />
                 

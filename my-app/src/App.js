@@ -1,10 +1,10 @@
 import React, {useEffect} from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; // We just named BrowserRouter to Router/ Install Router: npm install react-router-dom
 import './App.css';
-import AboutPage from './components/Pages/AboutPage';
-import ContactPage from './components/Pages/ContactPage';
+import AboutPage from './components/pages/AboutPage';
+import ContactPage from './components/pages/ContactPage';
 
-import HomePage from './components/Pages/HomePage';
+import HomePage from './components/pages/HomePage';
 import ReactGa from 'react-ga'; // Google Analytics
 
 
