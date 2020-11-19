@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; // We just named BrowserRouter to Router/ Install Router: npm install react-router-dom
-import './App.scss';
+import './App.css';
 import AboutPage from './components/Pages/AboutPage';
 import ContactPage from './components/Pages/ContactPage';
 
@@ -10,11 +10,7 @@ import ReactGa from 'react-ga'; // Google Analytics
 
 
 
-   
-
-
-
- 
+  
 function App() {
 
 
@@ -25,28 +21,18 @@ function App() {
     ReactGa.pageview('/')
   }, [])
   
-
   return (
-    
-    
-   
-
     <Router> 
-      
-      
+
       <h1>
-        
         <Switch>
           <Route path="/" exact component = {HomePage} />
           <Route path="/about" component = {AboutPage} />
           <Route path="/contact" component = {ContactPage} />
         </Switch>
-    </h1>
+      </h1>
+      
     </Router>
-    
-        
-
-    
   );
 }
 
