@@ -19,3 +19,7 @@ function HomeTextArea() {
 }
 
 export default HomeTextArea
+
+
+/* From Danny danny@total-applications.com to Everyone:  06:08 PM
+https://projects.raspberrypi.org/en/projects/using-pip-on-windows/4 */
