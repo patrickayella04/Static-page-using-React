@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; // We just named BrowserRouter to Router/ Install Router: npm install react-router-dom
-import './App.sass';
+import './App.scss';
 import AboutPage from './components/pages/AboutPage';
 import ContactPage from './components/pages/ContactPage';
 
