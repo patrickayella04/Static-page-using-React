@@ -9,7 +9,6 @@
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
     "@testing-library/user-event": "^12.2.0",
-    "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-ga": "^3.2.1",
@@ -42,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "gulp": "^4.0.2",
     "install-peers": "^1.0.3",
     "node": "^15.0.1"
   }

@@ -5,7 +5,7 @@ https://github.com/sass/node-sass/releases/tag/v4.14.1*/
 * {
   margin: 0;
   padding:0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 html {
   font-size: 62.5%; /* 1 rem is now 1 10 pixles*/
